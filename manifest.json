@@ -12,5 +12,5 @@
       "js": ["jquery.min.js", "index.js"],
       "run_at": "document_start"
   }],
-  "manifest_version": 1
+  "manifest_version": 2
 }
