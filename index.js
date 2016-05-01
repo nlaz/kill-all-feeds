@@ -11,6 +11,14 @@ var killFeeds = function () {
   $('#guide-container').remove();
   $('#autoplay-checkbox').attr('checked', false);
   $('#watch7-sidebar-contents').remove();
+
+  /* Redirect Pages */
+  var redirect_pages = ['reddit.com', 'imgur.com'];
+  redirect_pages.forEach(function (page) {
+    if (window.location.href.includes(page)) {
+      window.location.replace("http://www.github.com");
+    }
+  });
 }
 
 window.setInterval(killFeeds, 100);
