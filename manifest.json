@@ -2,15 +2,18 @@
   "name": "kill-all-feeds",
   "version": "0.1.0",
   "description": "Get rid of distractions, get rid of feeds",
-  "content_scripts": [{
+  "content_scripts": [
+    {
       "matches": [
-        "*://*.facebook.com/*", 
+        "*://*.facebook.com/*",
         "*://*.youtube.com/*",
         "*://*.reddit.com/*",
         "*://*.imgur.com/*"
       ],
       "js": ["jquery.min.js", "index.js"],
       "run_at": "document_start"
-  }],
+    }
+  ],
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
   "manifest_version": 2
 }
