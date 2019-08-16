@@ -1,4 +1,4 @@
-# kill-all-feeds
+# 🚫 kill-all-feeds
 
 A simple Chrome extension that removes your most annoying newsfeeds.
 
@@ -8,14 +8,18 @@ This Chrome extension removes distracting Facebook, Youtube, and Reddit newsfeed
 
 ## FAQs
 
-_Is this a serious problem?_
+**Is this a serious problem?**
 
 Yeah. I waste a lot of time online. Please stop judging.
 
-_Will this extension work for me?_
+**Will this extension work for me?**
 
 Probably not, this extension hardcoded the class names of HTML elements, which obviously change. This extension is pretty fragile and will likely break for you. Don't send hate mail.
 
-_Then why are you sharing this?_
+**Then why are you sharing this?**
 
 Good question. Maybe, it will be a helpful reference if you also want to build something similar. If you do, send me a message. I would love to hear about it.
+
+## License
+
+Do whatever you want with it.
