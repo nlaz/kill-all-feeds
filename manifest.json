@@ -4,8 +4,13 @@
   "description": "Get rid of distractions, get rid of feeds",
   "content_scripts": [
     {
-      "matches": ["*://*.youtube.com/*", "*://news.ycombinator.com/*", "*://*.reddit.com//*"],
-      "js": ["jquery.min.js", "index.js"],
+      "matches": [
+        "*://*.youtube.com/*",
+        "*://news.ycombinator.com/*",
+        "*://*.reddit.com//*",
+        "*://reddit.com//*"
+      ],
+      "js": ["index.js"],
       "run_at": "document_start"
     }
   ],
