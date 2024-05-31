@@ -1,5 +1,11 @@
 var killFeeds = function () {
   /* Youtube Feed */
+
+  // if current url contains reddit.com then redirect to google.com
+  if (window.location.href.indexOf("reddit.com") > -1) {
+    window.location.href = "https://google.com";
+  }
+
   if (window.location.pathname === "/") {
     $("#page-manager").remove();
     $("#home-container-media").remove();
